@@ -1,7 +1,29 @@
-.datoscontacto{
-	font-size:medium;
-
-}
+/* Estilos generales para los enlaces de contacto */
+.contacto {
+    display: inline-flex;           /* Ícono y texto alineados horizontalmente */
+    align-items: center;            /* Alinea verticalmente al centro */
+    color: #ffffff;                    /* Puedes ajustar el color */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 8px;
+    gap: 8px;                       /* Espacio entre ícono y texto */
+    outline: none;         /* Quita la línea de puntos al hacer clic */
+    border: none;          /* Por si algún navegador aplica un borde */
+    text-decoration: none; /* Ya lo tenías, pero se asegura que no hay subrayado */
+  }
+  .contacto:focus {
+    outline: none;
+  }
+  /* Opcional: efecto hover */
+  .contacto:hover {
+    opacity: 0.8;
+  }
+  
+  /* Estilo para el texto junto a los íconos */
+  .datoscontacto {
+    vertical-align: middle;         /* Alineación del texto */
+  }
+  
 
 .float{
 	position:fixed;
